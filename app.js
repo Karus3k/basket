@@ -12,3 +12,7 @@ document.querySelectorAll(".nav-link").forEach(n => n.
         hamburger.classList.remove('active');
         navMenu.classList.remove('active');
     }))
+
+    $(window).on('beforeunload', function() {
+        $(window).scrollTop(0);
+    });

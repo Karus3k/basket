@@ -24,7 +24,7 @@ h1 img {
 h2, p {
     border-radius: 5px;
     color: var(--color-orange);
-    text-shadow: 12px 12px 5px black;
+    text-shadow: 5px 5px 3px black;
     padding: 5px;
 }
 h2 {
@@ -179,8 +179,9 @@ footer {
     width: 100%;
     position: fixed;
 }
-.footer div {
+.media {
     color: var(--color-orange);
+    direction: none;
     font-size: 24px;
 }
 @media (min-width: 964px) {
