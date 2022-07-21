@@ -98,7 +98,6 @@ main {
     flex-direction: column;
     height: 100%;
     justify-content: center;
-    scroll-snap-type: y;
 }
 .container {
     align-items: center;
@@ -109,7 +108,6 @@ main {
     margin: 2px auto;
     min-height: 700px;
     padding: 12px;
-    scroll-snap-align: center;
     width: 100%;
 }
 #powitanie {
